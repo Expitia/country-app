@@ -1,0 +1,23 @@
+{
+	"compilerOptions": {
+	   "lib": [
+		  "es2017",
+		  "ESNext",
+      	  "dom"
+	   ],
+	   "typeRoots": [
+		"node_modules/@types"
+	   ],
+	   "target": "es2015",      
+	   "module": "CommonJS",  
+	   "moduleResolution": "node",
+	   "outDir": "build",
+	   "rootDir": "src",
+	   "emitDecoratorMetadata": true,
+	   "experimentalDecorators": true,
+	   "sourceMap": true,
+	   "downlevelIteration": true,
+
+	},
+	"exclude": ["node_modules"]
+ }

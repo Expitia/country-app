@@ -1,0 +1,53 @@
+<html>
+  <head>
+    <base href="/" />
+    <meta charset="utf-8" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;400&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="public/style.css" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, user-scalable=yes"
+    />
+    <title>Country App</title>
+  </head>
+  <body>
+    <script id="common-js" data-main="index.js" src="common.min.js"></script>
+    <header-panel></header-panel>
+    <searcher-filter
+      id="searcher-filter"
+      placeholder="Search country"
+    ></searcher-filter>
+    <div class="continents-section">
+      <continent-container
+        id="africa"
+        countries="[]"
+        header="Africa"
+      ></continent-container>
+      <continent-container
+        id="america"
+        countries="[]"
+        header="America"
+      ></continent-container>
+      <continent-container
+        id="asian"
+        countries="[]"
+        header="Asia"
+      ></continent-container>
+      <continent-container
+        id="europe"
+        countries="[]"
+        header="Europa"
+      ></continent-container>
+      <continent-container
+        id="oceania"
+        countries="[]"
+        header="Oceania"
+      ></continent-container>
+    </div>
+    <country-details id="details"></country-details>
+  </body>
+</html>

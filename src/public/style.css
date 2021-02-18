@@ -1,0 +1,11 @@
+body {
+  margin: 0px;
+  padding-left: 50px;
+  font-family: Roboto;
+  background: #fafafb;
+}
+.continents-section {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
